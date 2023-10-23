@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #121212;
+    font-size: 15pt;
+    color: white;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: green;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+    appearance: none;
+}
+
+.code-container {
+    width: 100%;
+    height: 50%;
+}
+
+textarea.code {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #343434;
+    color: white;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: start;
+}
+
+.output-container {
+    width: 100%;
+    height: 50%;
+}
+
+.output-console {
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: scroll;
+}
+
+.console-line {
+    width: 100%;
+    line-height: 24px;
+    font-size: 16px;
+    color: white;
+}
+
+.compile-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 10px;
+    background-image: url(sync.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.compile-button:hover {
+    background-color: lightgray;
+}
+
+.clear-button {
+    position: fixed;
+    bottom: 10px;
+    right: 68px;
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 10px;
+    background-image: url(clear.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clear-button:hover {
+    background-color: lightgray;
+}
