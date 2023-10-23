@@ -2,14 +2,11 @@
 
 ## 개요
 
----
 
 - stack based
 - 해애애앰… → 4*3
 
 ## 문법
-
----
 
 - start and end
 script must start with “햄스터는 귀엽다!” and ends with “고로 햄스터는 귀엽다!”
@@ -22,8 +19,6 @@ script must start with “햄스터는 귀엽다!” and ends with “고로 햄
 - \> → print current memory as int
 
 ## 예시
-
----
 
 - 햄스터는 귀엽다!
 
@@ -52,8 +47,6 @@ script must start with “햄스터는 귀엽다!” and ends with “고로 햄
 ```
 
 ## 참조
-
----
 
 - 아희
 - 혀엉…
