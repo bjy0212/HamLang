@@ -11,11 +11,10 @@
 - start and end
 script must start with “햄스터는 귀엽다!” and ends with “고로 햄스터는 귀엽다!”
 - 해앰… → integer “해앰”.length * “…”.length
-- 엣햄 → 복제.
+- 엣햄 → 출력
 - ! → current memory to stack
 - +, -, *, / → 스택의 첫 요소와 현재 메모리 값을 사칙연산.
 - 햄 → pop first stack to memory
-- ~ → print current memory as charactor
 - \> → print current memory as int
 
 ## 예시
